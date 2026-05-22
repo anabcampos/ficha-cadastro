@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+
+}
+.topo{
+    display: flex;
+    width: 1000px;
+    background-color: #808080; 
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 25px;
+    color: #fff;
+
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex: 1;
+}
+
+.topo img {
+width: 50px;
+}
+
+.cadastro-topo {
+    flex: 4;
+}
+
+.cadastro-topo p {
+    padding-right: 100px;
+}     
+.documentos-necessarios{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    background-color: #FFDEAD;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.imagem-documentos{
+    flex: 1;
+}
+
+.dados-left{
+    flex: 2;
+}
+
+.dados-right{
+    flex: 2;
+}
