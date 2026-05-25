@@ -6,51 +6,58 @@ body{
 }
 .topo{
     display: flex;
-    width: 1000px;
-    background-color: #808080; 
+    width: 950px;
+    background-color: #483D8B;
     border-radius: 10px;
     margin: auto;
     margin-top: 40px;
     padding: 25px;
     color: #fff;
-
-}
-.image{
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    flex: 1;
 }
 
 .topo img {
-width: 50px;
+    width: 70px;
+    border-radius:30px ;
+    background-color:#6959CD ;
 }
 
-.cadastro-topo {
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+}
+
+.cadastro-topo{
     flex: 4;
 }
 
-.cadastro-topo p {
-    padding-right: 100px;
-}     
+.cadastro-topo p{
+    padding-right:180px ;
+}
+
 .documentos-necessarios{
     display: flex;
-    width: 1000px;
+    width: 950px;
     margin: auto;
-    background-color: #FFDEAD;
+    background-color:#FFE4B5;
+    border-radius: 10px;
     padding: 25px;
     margin-top: 30px;
-    border-radius: 10px;
 }
 
 .imagem-documentos{
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.imagem-documentos img{
+    width: 70px;
+}
 .dados-left{
     flex: 2;
 }
-
 .dados-right{
     flex: 2;
 }
